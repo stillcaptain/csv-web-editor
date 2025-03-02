@@ -43,38 +43,6 @@ document.getElementById("fileInput").addEventListener("change", function (event)
 
 
 // Function to render the table
-// function renderTable() {
-//     tableBody.innerHTML = ""; // Clear existing rows
-
-//     for (let i = 0; i < data.length; i++) {
-//         const row = data[i];
-//         const tr = document.createElement("tr");
-
-//         // Add cells for each value in the row
-//         for (let key in row) {
-//             const td = document.createElement("td");
-//             td.textContent = row[key];
-//             td.setAttribute("contenteditable", "true"); // Make cells editable
-//             td.addEventListener("blur", function () {
-//                 row[key] = td.textContent; // Update data when editing is finished
-//             });
-//             tr.appendChild(td);
-//         }
-
-//         // Add a delete button
-//         const actionsTd = document.createElement("td");
-//         actionsTd.innerHTML = `
-//             <button class="delete-btn" onclick="deleteRow(${i})">Delete</button>
-//         `;
-//         tr.appendChild(actionsTd);
-
-//         // Append the row to the table body
-//         tableBody.appendChild(tr);
-//     }
-// }
-
-
-// Function to render the table
 function renderTable() {
     tableBody.innerHTML = ""; // Clear existing rows
 
