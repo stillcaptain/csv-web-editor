@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Editor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="table-container">
+      <h1>Data Editor</h1>
+
+      <div>
+        <input type="file" id="fileInput" accept=".csv" />
+
+        <label for="fileInput" id="fileInputBtn">Upload Data</label>
+        <button id="newRowBtn">New Row</button>
+        <button id="downloadCSVBtn">Download Data</button>
+      </div>
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th>Invoice No</th>
+            <th>Customer ID</th>
+            <th>Gender</th>
+            <th>Age</th>
+            <th>Category</th>
+            <th>Quantity</th>
+            <th>Price (TL)</th>
+            <th>Payment Method</th>
+            <th>Date</th>
+            <th>Shopping Mall</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Τοποθέτηση γραμμών -->
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

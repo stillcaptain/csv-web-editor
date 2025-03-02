@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9e5f2;
+    margin: 0;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.table-container {
+    width: 90%;
+    max-width: 1200px;
+    min-width: 1000px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#fileInputBtn {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff4c64;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px;
+}
+
+#newRowBtn {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3d9e8a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px;
+}
+
+#downloadCSVBtn {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #32669e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 5px;
+}
+
+#fileInput {
+    display: none;
+}
+
+
+table {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 900px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+button.edit-btn {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #ffc107;
+    color: white;
+}
+
+button.delete-btn {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #dc3545;
+    color: white;
+}
